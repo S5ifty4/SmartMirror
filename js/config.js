@@ -1,5 +1,5 @@
 var config = {
-    lang: 'nl',
+    lang: 'en',
     time: {
         timeFormat: 12
     },
@@ -7,37 +7,37 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands',
-            units: 'metric',
+            q: 'Pleasanton,California',
+            units: 'imperial',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'nl',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            lang: 'en',
+            APPID: '60f33088b61eb9592757f3067449fe3c'
         }
     },
     compliments: {
         interval: 30000,
         fadeInterval: 4000,
         morning: [
-            'Good morning, handsome!',
-            'Enjoy your day!',
-            'How was your sleep?'
+            'Good Morning!',
+            'That looks nice on you',
+            'Have a great day!'
         ],
         afternoon: [
-            'Hello, beauty!',
-            'You look sexy!',
-            'Looking good today!'
+            'Good Afternoon!',
+            'Halfway there',
+            'YOLO'
         ],
         evening: [
-            'Wow, you look hot!',
-            'You look nice!',
-            'Hi, sexy!'
+            'Good Evening!',
+            'Looking good',
+            'Hey wassup hello'
         ]
     },
     calendar: {
-        maximumEntries: 10,
-        url: "https://p01-calendarws.icloud.com/ca/subscribe/1/n6x7Farxpt7m9S8bHg1TGArSj7J6kanm_2KEoJPL5YIAk3y70FpRo4GyWwO-6QfHSY5mXtHcRGVxYZUf7U3HPDOTG5x0qYnno1Zr_VuKH2M"
+        maximumEntries: 5,
+        url: "https://calendar.google.com/calendar/ical/mlnaik93%40gmail.com/private-c1787f9a99bff08920c847ab1295149b/basic.ics"
     },
     news: {
-        feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'
+        feed: 'http://rss.cnn.com/rss/edition.rss'
     }
 }
